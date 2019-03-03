@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='icaros.css') }}">
+</head>
+<body>
+<div id="image_map"> 
+
+<p>Clickable area. Please click END when you want to end the session </p>
+<img id="image" src="{{url_for('static', filename='dog.jpg')}}" alt="Clickable Area" width=500 height=340 usemap="#map_example"> <br></br>
+<map id='maparea' name="map_example" onclick="showCoords(event)">
+	 <area id='area' href="#" alt="Hello USC" target="_self" shape="rect" coords="0,0,882,1226"> 
+</map> 
+<button type="button" onclick="end_session()">END</button>
+
+</div> 
+<script src="{{ url_for('static', filename='javascripts/jquery-3.2.1.min.js') }}"></script>
+<script src="{{ url_for('static', filename='icaros.js') }}"></script>
+</body>
+</html>

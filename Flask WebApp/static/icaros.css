@@ -1,0 +1,33 @@
+
+body {
+    background-color: powderblue;
+    height: auto;
+}
+
+p {
+    position: absolute;
+    top: 24%;
+    left: 37%;
+    margin-left: -(X/2)px;
+    margin-top: -(Y/2)px;
+    height: auto;
+}
+
+img {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    margin-left: -(X/2)px;
+    margin-top: -(Y/2)px;
+    height: auto;
+}
+
+button {
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    margin-left: -(X/2)px;
+    margin-top: -(Y/2)px;
+    height: auto;
+}
+
